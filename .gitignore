@@ -1,0 +1,14 @@
+# Ignore the secure_info.txt file
+secure_info.txt
+
+# Common patterns to ignore
+*.log          # Ignore log files
+*.pyc          # Ignore Python bytecode files
+__pycache__/   # Ignore Python cache directories
+.DS_Store      # Ignore macOS system files
+.env           # Ignore environment files
+*.sqlite3      # Ignore SQLite database files
+
+# Ignore directories created by virtual environments
+venv/
+env/
